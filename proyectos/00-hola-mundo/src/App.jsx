@@ -1,20 +1,14 @@
+import "./App.css"
+import { TwitterFollowCard } from "./TwitterFollowCard";
+
 function App(){
     return (
-      <article style={{display:"flex" , color : "white"}}>
-        <header>
-            <img src="public/imagenes/Astrobot.jpg" alt="Astrobot"/>
-            <div>
-                <strong>Kevin Lamilla</strong>
-                <span>@klamilla16</span>
-            </div>
-        </header>
-        <aside>
-            <button>
-                seguir
-            </button>
-        </aside>
-      </article>
-    )
+    <div className="App">
+        <TwitterFollowCard userName="klamilla16" name="Kevin Lamilla" isFollowing="Seguir"/>
+        <TwitterFollowCard userName="ILamilla18" name="Isaac Lamilla" isFollowing="Seguir"/>
+        <TwitterFollowCard userName="ALamilla22" name="Anthonny Lamilla" isFollowing="Seguir"/>
+    </div>
+)
 }
 
 export default App;
