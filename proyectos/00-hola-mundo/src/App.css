@@ -6,6 +6,10 @@
     justify-content: space-between;
 }
 
+.tw-followCard:hover{
+    background-color: #fceeee;
+}
+
 .tw-followCard-header{
     display: flex;
     align-items: center;
